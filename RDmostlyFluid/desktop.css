@@ -1,0 +1,18 @@
+/* @media (min-width:800px){ */
+   .container{
+      width: 80rem;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .box1{
+      width: 60%;
+   }
+   .box2{
+      width: 40%;
+   }
+   .box3,.box4{
+      width: 33%;
+   }
+   .box5{
+      width: 34%;
+   }

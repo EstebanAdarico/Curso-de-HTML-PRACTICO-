@@ -1,0 +1,29 @@
+.main-nav{
+    margin-top: 10px;/*agrega margen de 10px a la etiqueta nav*/
+    list-style: none;/*para eliminar los bullet de las listas desordenadas*/
+    padding-left: 0;/*es una dimension interna de un contenedor*/
+    background-color: cornflowerblue;/*agregar color de fondo*/
+
+}
+.main-nav__item {
+    display: inline-block;/*Cambia el valor del display por defecto */
+}
+.main-nav__item a {
+    color: white; /*color dentro de la clase " a "*/
+    padding: 5px;/**/
+    border-radius: 2px;/*redondea las esquinas del botón*/
+    text-decoration: none;/*elimina el elemento subrayado de la etiqueta nav*/
+    
+}
+/*  (:) pseudo clase "class" que al pasar el cursor cambia de color*/
+.main-nav__item a:hover{
+    color: rebeccapurple ;
+}
+/* (:) pseudo clase "class" que al hacer click se activa el color red*/
+.main-nav__item a:active{
+    color: red ;
+}
+/* (::) pseudo elemento o selectores "element" que agrega el contenido |  */
+.main-nav__item a::after{
+    content: "|";
+}

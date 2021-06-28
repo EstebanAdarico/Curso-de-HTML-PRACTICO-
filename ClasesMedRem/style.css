@@ -1,0 +1,8 @@
+html{/*Al darle esta medida al root , se podra cambiar el tamaño prediceñado */
+   font-size: 62.5%;
+}
+
+p{/*las medidas cambiaran a decimales para que sea mas facil el cambio del font size*/
+   font-size: 1.8rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

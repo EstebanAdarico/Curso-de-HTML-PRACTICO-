@@ -1,0 +1,19 @@
+* {/*configuracion para la buena practica de un desarrollador*/
+   box-sizing: border-box;/*para que los bordes siempre manden los mismos resultados no importando los diferentes valores de las cajas*/
+   padding: 0;
+   margin: 0;
+}
+.parent{
+   border: 2px black dotted;/* para que las lineas sean punteadas*/
+   display: inline-block;
+}
+.box{
+   display: inline-block;
+   background-color: red;
+   width: 100px;
+   height: 100px;
+}
+#two{
+   background-color: salmon;
+
+}

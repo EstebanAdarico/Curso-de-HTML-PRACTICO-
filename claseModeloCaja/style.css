@@ -1,0 +1,15 @@
+/* selector universal(*) */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box ;/*calcula automaticamente restando el padding y el margin para que no haga scroll ajustanto  al padding y border pero al margin */
+}
+
+
+main{
+   width: 100%;/*anchura del contenido */
+   height: 200px;/*altura del contenido*/
+   border: 10px solid rgba(240, 137, 137, 0.336);/*borde soldo como marco */
+   border-radius: 50px;
+   padding: 20px 35px;/*(arriaba )( abajo )*/
+}

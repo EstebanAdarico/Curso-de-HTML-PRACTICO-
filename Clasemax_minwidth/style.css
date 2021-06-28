@@ -1,0 +1,18 @@
+* {/*con el selector del todo . esto es lo que deberia estar en todo los comienzos de cada pagina*/
+   box-sizing: border-box;/*le dice al navegador que tome en cuenta los valores de relleno y border antes de mostrar el resultado en el viewport de la web*/
+   margin: 0;
+   padding: 0;
+}
+main {/**/
+   width: 100vw;
+   height: 100vh;
+   background-color: purple; 
+}
+section{
+   width: 80%;/*anchura del 70% referente al width de main, porcentaje base inicial*/
+   min-width: 320px;/*limitando disminucion de la anchura hasta 320 , no puede bajar mas */
+   max-width: 500px;/*limintando el crecimiento de la anchura hasta 500  */
+   min-height: 500px;/*altura minima de 500px  que escalará de acuerdo al contenido o crecerá de a cuerdo al contenido*/
+   margin: 0 auto;/*arriba y abajo no le agreges ningun margin , de izquierda a derecha ponlo ene automatic*/
+   background-color: seagreen;/*da el fondo de pantalla para section*/
+}

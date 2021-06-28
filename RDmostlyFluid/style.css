@@ -1,0 +1,66 @@
+:root{
+   --primary_color:#a3dfc3;
+   --second_color:#8caaec;
+   --third_color:#be5757;
+   --fourth_color:#659eb4;
+   --fifth_color:#a08aee;
+}
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;  
+}
+html{
+   font-size: 62.5%;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.box1,.box2, .box3, .box4, .box5{
+   width: 100vw;
+   height: 15rem;
+   min-width:15rem
+} 
+.box1{
+   background-color:var(--primary_color) ;
+}
+.box2{
+   background-color: var(--second_color);
+}
+.box3{
+   background-color: var(--third_color);
+}
+.box4{
+   background-color: var(--fourth_color);
+}
+.box5{
+   background-color: var(--fifth_color);
+}
+/*si el margen de la pantalla pasa de 600px se activaran estas caracteristicas 
+@media (min-width:600px){
+   .box2, .box3, .box4{
+      width:50vw;
+   }
+} */
+/* si el margen de la pantalla pasa de 800px se activaran estas caracteristicas
+@media (min-width:800px){
+   .container{
+      width: 80rem;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .box1{
+      width: 60%;
+   }
+   .box2{
+      width: 40%;
+   }
+   .box3,.box4{
+      width: 33%;
+   }
+   .box5{
+      width: 34%;
+   }
+} */

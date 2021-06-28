@@ -1,0 +1,27 @@
+
+/*-----Ejemplos de combinador ADJACENT SIBLING-----*/
+/*
+h2 + p{  combinadorr adjacent sibling o sea -- (cambia el parrafo que esté mas cercano a un h2)
+   color: red;
+}
+h3 + p{combinar adjacent siblind o sea -- (cambia el parrafo que esté mas cercano a un h3)
+   color: green;
+}*/
+/*-----Ejemplos de combinador GENERAL SIBLING-----*/
+/*Es general por que esta dentro del div , entonces todo lo que esté dentro se pintará de grenn
+h2 ~ p {
+   color: green;
+}
+*/
+/*-----Ejemplos de combinador CHILD*/
+/* la etiqueta parrafo que sea hija directa de la eyiqueta div(div será el padre directo de <p> solo asi funcionará
+div > p{
+   color: hotpink;
+
+} */ 
+/*-------Ejemplos de cordinador Descendant
+todas la etiquetas que esten dentro de la clase (div) o (etiqueta) maplicale el siguiente estilo
+div p{
+   color:red
+}
+*/

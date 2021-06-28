@@ -1,0 +1,30 @@
+/*RETO CUMPLIDO*/
+* {/*parametros establecidos para el autocomfigurado del viewport*/
+   box-sizing: border-box;
+   padding:0;
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+   margin: 50px auto;
+   min-height: 380px;/*no puede disminuir menos de 380 a la hora de achicarlo */
+   min-width: 320px;/**/
+   max-width: 700px;/**/
+}
+.container_title{
+   border-radius: 20px;
+   
+   background-color: lightcoral;
+   margin: auto;
+   width: 180px;
+   padding:20px 30px;
+   position: relative;/*activa el modo relative par que pueda moverse*/
+   top: 25px;/*hacia bajo en 25px*/
+}
+.conten{
+   border-radius: 20px;
+   
+   background-color: rgb(151, 135, 221);
+   margin: auto 50px;
+   padding:100px 50px;
+}
